@@ -4,3 +4,33 @@
 #redesSociales{
     text-align: center;
 }
+main{
+    margin-right: 0px !important;
+}
+main p{
+    text-align: justify;
+}
+.img-post-iz{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    }
+.img-post-iz img{
+    max-width: 100%;
+}
+aside textarea{
+    height: 30px;
+}
+aside img{
+    height: 30px;
+}
+@media (min-width: 790px){
+    #logo{
+        max-height: 120px;
+    }
+}
+@media (min-width: 992px) {
+    .img-post-iz img{
+        padding-top: 25px;
+    }
+}
