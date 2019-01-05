@@ -4,6 +4,10 @@
 #redesSociales{
     text-align: center;
 }
+.r_s_icon:hover{
+    background-color: #10806d;
+    border-radius: 8px;
+}
 main{
     margin-right: 0px !important;
 }
@@ -18,12 +22,13 @@ main p{
 .img-post-iz img{
     max-width: 100%;
 }
-aside textarea{
-    height: 30px;
-}
 aside img{
-    height: 30px;
+    padding: 0px;
+    margin:0px;
+    height: 20px;
+    max-height: 20px;
 }
+
 @media (min-width: 790px){
     #logo{
         max-height: 120px;

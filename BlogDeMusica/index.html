@@ -14,11 +14,11 @@
         <div class="bg-primary row align-items-end">
             <img id="logo" src="img/logo.svg" alt="" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12" style="margin: 0px;">
             <div id="redesSociales" class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-12 offset-xl-6 offset-lg-6 offset-md-5 offset-sm-4">
-                <img src="img/001-instagram.png" alt="">
-                <img src="img/002-facebook.png" alt="">
-                <img src="img/003-twitter.png" alt="">
-                <img src="img/004-whatsapp.png" alt="">
-                <img src="img/006-google-plus.png" alt="">
+                <a href=""><img class="r_s_icon" src="img/001-instagram.png" alt=""></a> 
+                <a href=""><img class="r_s_icon" src="img/002-facebook.png" alt=""></a> 
+                <a href=""><img class="r_s_icon" src="img/003-twitter.png" alt=""></a> 
+                <a href=""><img class="r_s_icon" src="img/004-whatsapp.png" alt=""></a> 
+                <a href=""><img class="r_s_icon" src="img/006-google-plus.png" alt=""></a> 
             </div>
         </div>
     </header>
@@ -72,17 +72,32 @@
                 </div>
             </article>
         </section>
-        <aside class="bg-secondary jumbotron col-sm-4">
-            <div class="row">
-                    <img class="col-3 col-md-4" src="/img/002-loupe.svg" alt="">
-                    <textarea class="col-9 col-md-8" name="" id="" ></textarea>
-            </div>
-        </aside>
+        <aside class="bg-secondary jumbotron d-none d-sm-inline col-sm-4">
+                <div id="buscador" class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><img src="/img/002-loupe.svg" alt=""></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <ul id="resultadosBsqueda" class="list-group">
+                    <li class="list-group-item">King Crimson</li>
+                    <li class="list-group-item">Pink Floyd</li>
+                    <li class="list-group-item">Beastie Boys</li>
+                    <li class="list-group-item">Daft punk</li>
+                    <li class="list-group-item">Carlos Vives</li>
+                    <li class="list-group-item">King Crimson 2</li>
+                    <li class="list-group-item">Pink Floyd 2</li>
+                    <li class="list-group-item">Beastie Boys 2</li>
+                    <li class="list-group-item">Daft punk 2</li>
+                    <li class="list-group-item">Carlos Vives 2</li>
+                    <li class="list-group-item">King Crimson 3</li>
+                    <li class="list-group-item">Pink Floyd 3</li>
+                    <li class="list-group-item">Beastie Boys 3</li>
+                    <li class="list-group-item">Daft punk 3</li>
+                    <li class="list-group-item">Carlos Vives 3</li>
+                </ul>
+         </aside>
     </main>
-
-    <footer>
-
-    </footer>
     
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
