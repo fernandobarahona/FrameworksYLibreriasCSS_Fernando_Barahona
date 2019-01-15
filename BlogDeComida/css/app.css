@@ -1,0 +1,92 @@
+body {
+    font-size:100%;
+    background-image: url('../img/carrots-food-fresh-616404.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.pagina{
+    opacity: 0.9;
+    margin: 20px 8% 20px 8%;
+    border-radius: 30px;
+}
+/* Headers */
+h1 {
+    font-family: 'Croissant One', cursive;
+    font-size:1.9em;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Croissant One', cursive;
+    font-size: 1.5em;
+}
+
+.search-bar{
+    margin: 0px !important;
+}
+.input-group-button{
+    border-radius: 15px;
+}
+.search, .comment{
+    border-radius: 15px 0 0 15px !important;
+    height: 40px !important;
+    padding: 8px;
+}
+.search-field, .comment-field{
+    border-radius: 0 15px 15px 0 !important;
+    height: 40px;
+    max-width: 80%;
+    margin: 0;
+}
+#favorites img{
+    padding: 2px;
+}
+#vr{
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          1px;  
+}
+nav a{
+    margin: 3px;
+    background-color: rgb(171, 219, 219);
+}
+nav{
+    margin-bottom: 20px;
+}
+#history{
+    margin-top: 20px;
+}
+#history span{
+    font-size: 14px;
+}
+main{
+    border-radius: 20px !important;
+}
+main h2{
+    font-size: 1.7em;
+    margin-bottom: 0px;
+}
+main h6{
+    margin-top: 0px;
+}
+.dejar_comentario_articulo i{
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    body{
+        background-image: none;
+    }
+    .pagina{
+        border-radius: 0;
+        margin: 0;
+    }
+    main{
+        margin-top: 20px !important;
+    }
+}
+
+
