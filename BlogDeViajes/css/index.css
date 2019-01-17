@@ -1,0 +1,101 @@
+body{
+    background-image: url('/img/aerial-clouds-dawn-206660.jpg');
+    background-attachment: fixed;
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    background-color: rgba(100, 100, 100, 0) !important;
+    box-shadow: none !important;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    float: none !important;
+}
+nav a{
+    font-size: 11.5px !important;
+    padding-left: 6px !important;
+    padding-right: 0px !important;
+    margin-left: 8px !important;
+    margin-right: 0px !important;
+}
+
+#social li{
+    margin-bottom: 15px;
+}
+#social a{
+    background-color: rgba(0,0,0,0);
+    height: 60px;
+    padding: 15px;
+}
+#social i{
+    opacity: 1;
+    font-size: 40px;
+    margin-right: 0px;
+}
+#logo{
+    max-width: 250px;
+    min-width: 150px;
+}
+.slogan{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+main h1{
+    padding-left: 25px;
+}
+main p{
+    background-color: rgba(38,166,154,.2) !important;
+    padding-right: 14px;
+}
+.card{
+    background-color: rgba(38,166,154,.6) !important;
+}
+.card-image img{
+    border-radius: 50% !important;
+}
+.card-title{
+    padding-left: 65px !important;
+}
+.chip i{
+    padding-top: 5px;
+}
+.chip span{
+    font-size: 16px;
+}
+article p{
+    text-align: justify;
+}
+#nuevo_comentario{
+    background-color: rgba(38,166,154,.2) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        transform: translate(0,40px);
+        text-align: center;
+    }
+    nav ul{
+        display: inline-block;
+        float: none !important;
+        color: rgba(0,0,0,1);
+        line-height: 56px;
+    }
+    nav i{
+        font-size: 16px !important;
+        margin-left: 14px !important;
+        margin-right: 17px !important;
+    }
+    .slogan{
+        margin-bottom: 0px;
+        text-align: center;
+        transform: translate(0,-90px);
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
